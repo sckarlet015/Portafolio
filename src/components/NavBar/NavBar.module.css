@@ -1,0 +1,22 @@
+.navBar{
+    background-color: rgba(49, 45, 48, 0.514);
+}
+.linkA{
+    color: aliceblue;
+}
+.linkA a{
+    color: aliceblue;
+}
+
+.linkA div{
+    background-color: rgb(49, 45, 48);
+}
+
+@media (max-width: 991px) {
+    .navBar{
+        width: 100%;
+    }
+    .Toggle  {
+      background-color: rgba(240, 248, 255, 0.664);
+    }
+  }

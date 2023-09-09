@@ -1,0 +1,83 @@
+/* ProyectoBox.module.css */
+
+.proyecto-box {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.descripcion {
+  flex: 1;
+  padding: 20px;
+}
+
+.descripcion p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.blue {
+  background-color: rgb(167, 167, 255);
+}
+
+.green {
+  background-color: rgb(167, 255, 179);
+}
+
+.orage {
+  background-color: rgba(250, 234, 87, 0.61);
+}
+
+.descripcion a {
+  display: block;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+  padding: 0px 10px;
+
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
+
+.linkA {
+  text-decoration: none;
+  background-color: #12c921ef;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.carrusel {
+  flex: 1;
+  height: 300px;
+  overflow: hidden;
+}
+
+.carrusel .carousel .slide {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 400px;
+  max-height: 100%;
+  object-fit: contain;
+  padding-left: 10px;
+}
+
+.texto-izquierda {
+  flex-direction: row-reverse;
+}
+
+.texto-derecha {
+  flex-direction: row;
+}

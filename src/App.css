@@ -1,7 +1,41 @@
 .App {
   text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+.experience{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  text-align: -webkit-left;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.name{
+  margin-block: 0px;
+  color: #234a74;
+}
+.profesion{
+  margin-block: 0px;
+  color: #234a74;
+}
+.proyect{
+  margin-block: 0px;
+}
+.contact-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
+.contact-button:hover {
+  background-color: #0056b3;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +48,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
