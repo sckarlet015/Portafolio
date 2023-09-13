@@ -1,6 +1,10 @@
+.cont{
+    text-align: -webkit-left;
+    padding-left: 55px;
+}
 .btn{
     border: color solid white 3px;
-    background-color: transparent;
+    background-color: #000;
     border-radius: 7px;
     color: white;
     width: 180px;

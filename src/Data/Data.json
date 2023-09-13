@@ -1,7 +1,7 @@
 [
     {
         "nombre": "EPIC GAME STORE",
-        "descripcion": "En el desarrollo de una plataforma de venta de videojuegos, gestioné la implementación del registro y autenticación con Firebase Auth, incluyendo la creación de un Dashboard de usuario para actualización de datos, historial de compras y favoritos. En el backend, conecté el servidor a la base de datos usando Sequelize y Express, desarrollando endpoints seguros para operaciones HTTP. Implementé medidas de seguridad como JWT y encriptación bcrypt. Adicionalmente, incorporé funcionalidades como notificaciones por correo electrónico vía nodeMailer y pasarela de pago mediante la API de Mercado Pago. Utilicé la API pública rawg.io para obtener datos de juegos. En la base de datos, apliqué modelado E-R, creando tablas y relaciones con Sequelize, además de ejecutar consultas SQL eficientes. Esta experiencia consolidó mis habilidades en tecnologías como Firebase Auth, Sequelize, Express, y me permitió llevar a cabo un proyecto integral desde la interfaz de usuario hasta el backend.",
+        "descripcion": "Mi aplicación es una plataforma de venta de videojuegos que brinda a los usuarios un proceso de registro seguro y un Dashboard de usuario. En el backend, conecta la base de datos, implementa medidas de seguridad y ofrece funciones como notificaciones y pagos. Es un ejemplo de mis habilidades en desarrollo web completo, destacando mi capacidad para crear soluciones tecnológicas eficaces y seguras.",
         "imagenes": ["src/Img/Foto.jpg", "url_imagen2.jpg", "url_imagen3.jpg"],
         "linkBack": "hhttps://github.com/sckarlet015/EpicGameStoreBack",
         "linkFront": "https://github.com/sckarlet015/EpicGameStoreFront",
@@ -10,7 +10,7 @@
     },
     {
         "nombre": "POKE APP",
-        "descripcion": "Desarrollé una aplicación web para visualizar datos detallados de personajes (Pokémon), usando una Rest API pública. En el frontend, implementé un formulario para crear y guardar nuevos Pokémon en la base de datos. Diseñé Cards y Containers con paginación, filtros y ordenamientos para los personajes. Utilicé Hooks, estados globales, locales y useEffect de React para renderización dinámica. En el backend, conecté el servidor a la base de datos mediante Sequelize y Express, creando endpoints para operaciones HTTP. Utilicé la API pública pokeApi para obtener datos de los Pokémon. Modelé las entidades necesarias y creé tablas con Sequelize. Aseguré un manejo adecuado de respuestas y desarrollé consultas SQL eficientes para obtener información precisa de la base de datos. Esta experiencia solidificó mi dominio de tecnologías como Sequelize, Express y React, permitiéndome crear una aplicación web funcional y dinámica con interacción frontend y backend.",
+        "descripcion": "Creé una aplicación web para mostrar datos de Pokémon. En el frontend, implementé funcionalidades interactivas con React y en el backend, manejé datos y consultas eficientes con Sequelize y Express. Esta experiencia mejoró mi dominio en desarrollo web.",
         "imagenes": ["url_imagen1.jpg", "url_imagen2.jpg", "url_imagen3.jpg"],
         "linkBack": "https://github.com/sckarlet015/PokemonBack",
         "linkFront": "https://github.com/sckarlet015/PokemonFront",
@@ -19,7 +19,7 @@
     },
     {
         "nombre": "FOOD APP",
-        "descripcion": "He creado una aplicación web que presenta en detalle información sobre platos culinarios utilizando la API pública de Spoonacular. En la parte frontal, diseñé un formulario para agregar y almacenar nuevos platos en la base de datos. He implementado Cards y Containers con opciones de paginación, filtros y ordenamiento para presentar los platos de manera efectiva. Hice uso de Hooks, estados globales y locales, así como useEffect de React para lograr una renderización dinámica y atractiva de los datos. En el backend, conecté el servidor a una base de datos empleando Sequelize y Express, estableciendo endpoints que manejan operaciones HTTP. He integrado la API pública de Spoonacular para adquirir información detallada sobre los platos. Llevé a cabo el modelado de las entidades clave y configuré tablas a través de Sequelize. Me aseguré de gestionar adecuadamente las respuestas y optimicé las consultas SQL para obtener información precisa de la base de datos. Esta experiencia ha consolidado mis habilidades en tecnologías como Sequelize, Express y React, lo que me permitió crear una aplicación web funcional y dinámica que establece una sólida interacción entre el frontend y el backend.",
+        "descripcion": "Creé una aplicación web con información detallada de platos culinarios usando Spoonacular API. En el frontend, agregué platos, implementé paginación, filtros y ordenamiento con React. En el backend, conecté la base de datos y manejé operaciones HTTP eficientes. Fortaleció mis habilidades en desarrollo web.",
         "imagenes": ["url_imagen1.jpg", "url_imagen2.jpg", "url_imagen3.jpg"],
         "linkBack": "hhttps://github.com/sckarlet015/foodback",
         "linkFront": "https://github.com/sckarlet015/foodfront",

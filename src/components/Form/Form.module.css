@@ -1,0 +1,94 @@
+.danger {
+  font-size: 15px;
+  color: red;
+  margin-left: 10em;
+  display: contents;
+}
+
+.form {
+  display: inline-grid;
+  /* border: 5px solid #ff4800; */
+  border-radius: 10px;
+  padding: 10px;
+  width: 500px;
+  height: 460px;
+  justify-items: center;
+  margin: 10px;
+}
+
+.form h3{
+  color: antiquewhite;
+}
+
+.conten {
+  display: inline-grid;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.conten2 {
+  display: grid;
+}
+
+.types {
+  text-align: justify;
+}
+
+.title {
+  color: white;
+  font-size: 1rem;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+
+.asuntoSelect{
+  margin-top: 10px;
+  background-color: rgba(87, 89, 124, 0.233);
+  border: 3px solid #000000;
+  color: antiquewhite;
+}
+
+.asunto{
+  background-color: rgba(87, 89, 124, 0.233);
+  color: rgb(0, 0, 0);
+}
+.inp {
+  background-color: rgba(87, 89, 124, 0.233);
+  border: 3px solid #000000;
+  border-radius: 5px;
+}
+
+.inp::placeholder {
+  color: white;
+}
+
+.inp:hover {
+  color: #B0E0E6;
+  background-color: black;
+}
+
+.imagen {
+  width: 200px;
+  height: 200px;
+}
+
+.crear {
+  border: color solid white 3px;
+  background-color: #000;
+  border-radius: 7px;
+  color: white;
+  width: 120px;
+  height: 45px;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.crear:hover {
+  border: none;
+  font-style: italic;
+  text-decoration: underline;
+}

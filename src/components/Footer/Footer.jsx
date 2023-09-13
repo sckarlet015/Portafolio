@@ -9,16 +9,16 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.info}>
         <p>© 2023 Mi Portafolio. Todos los derechos reservados.</p>
-        <p>Creado por Eric Ramirez</p>
+       <div className={styles.contFirma}> <p>Creado por: </p> <p className={styles.firma}> Eric Ramirez</p></div>
       </div>
-      <div className={styles.shared}>
+      <div className={styles.info}>
         <a
           href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin">Compartir en </i>
-          <FaLinkedin />
+          <FaLinkedin className={styles.icon}/>
         </a>
         <a
           href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`}
@@ -26,7 +26,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin">Compartir en </i>
-          <FaFacebook />
+          <FaFacebook className={styles.icon}/>
         </a>
         <a
           href={`https://api.whatsapp.com/send?text=${encodeURIComponent(url)}`}
@@ -34,7 +34,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin">Compartir en </i>
-          <FaWhatsapp />
+          <FaWhatsapp className={styles.icon}/>
         </a>
       </div>
     </footer>
