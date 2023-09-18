@@ -29,8 +29,6 @@ function App() {
     if (experienceRef.current) {
       const rect = experienceRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-      console.log("top", rect.top);
-      console.log("bottom", rect.bottom);
       if (rect.top >= 0 && rect.bottom <= windowHeight) {
         setIsExperienceVisible(true);
       } else {
