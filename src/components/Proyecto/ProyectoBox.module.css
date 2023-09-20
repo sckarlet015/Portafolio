@@ -54,7 +54,7 @@
   left: 0;
   right: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.85);
   opacity: 1;
   transition: opacity 0.3s ease;
   height: 100%;
@@ -155,5 +155,53 @@
     transform: translateX(0);
     animation-timing-function: ease-out;
     opacity: 1
+  }
+}
+
+@media (max-width: 769px) {
+  .name {
+    font-size: 14px;
+  }
+  
+  .descrip{
+    margin: 3px;
+    font-size: 13px;
+  }
+  
+  .contTech{
+    margin-top: 3px;
+    bottom: 3px;
+  }
+  
+  .tech{
+    width: 20px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 459px) {
+  .carGame{
+    width: 90%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  
+  .descrip{
+    margin: 3px;
+    font-size: 13px;
+  }
+  
+  .contTech{
+    margin-top: 3px;
+    bottom: 3px;
+  }
+  
+  .tech{
+    width: 20px;
+    height: 30px;
   }
 }

@@ -6,17 +6,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  transform: translateX(-100%); /* Inicialmente, coloca el div fuera de la vista */
+  transform: translateX(-100%); 
   transition: transform 0.5s ease;
 }
 
 .contInfo{
-  transform: translateX(-100%); /* Inicialmente, coloca el div fuera de la vista */
+  transform: translateX(-100%); 
   transition: transform 0.5s ease;
 }
 
 .form{
-  transform: translateX(-100%); /* Inicialmente, coloca el div fuera de la vista */
+  transform: translateX(-100%); 
   transition: transform 0.5s ease;
 }
 
@@ -24,33 +24,36 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  transform: translateX(0); /* Inicialmente, coloca el div fuera de la vista */
+  transform: translateX(0); 
   transition: transform 0.5s ease;
 }
 
 .visibleInfo{
-  transform: translateX(0); /* Inicialmente, coloca el div fuera de la vista */
+  transform: translateX(0); 
   transition: transform 0.5s ease;
 }
 
 .visibleForm{
-  transform: translateX(0); /* Inicialmente, coloca el div fuera de la vista */
+  transform: translateX(0); 
   transition: transform 0.5s ease;
 }
 
 
 @keyframes slideIn {
   to {
-    opacity: 1; /* Opacidad final en 1 */
-    transform: translateX(0); /* Movemos el elemento de nuevo a su posición original (0) */
+    opacity: 1; 
+    transform: translateX(0); 
   }
 }
+
 .subTitle{
   text-align: -webkit-left;
   font-size: 30px;
   color: antiquewhite;
   padding-left: 20px;
   padding-top: 30px;
+  margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 
 .line{
@@ -89,9 +92,26 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 769px) {
+  .subTitle{
+    text-align: -webkit-left;
+    font-size: 25px;
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 459px) {
+  .visible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(0); 
+    transition: transform 0.5s ease;
+  }
+
+  .experience{
+
+    flex-direction: column;
   }
 }
 
@@ -106,15 +126,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

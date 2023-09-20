@@ -20,21 +20,23 @@
     text-decoration: underline;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 769px) {
     .cont{
-        margin-top: -100px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        margin-left: -10px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         overflow: hidden;
-        margin-bottom: 150px;
+        
     }
 
     .btn{
         margin: 0px;
         position: relative;
-        margin-left: 203px;
-        margin-right: 190px;
+        margin-left: 100px;
+        margin-right: 100px;
         width: 130px;
         height: 50px;
         font-size: 20px;
@@ -42,14 +44,12 @@
 }
 
 
-@media (max-width: 499px) {
+@media (max-width: 459px) {
     .cont{
-        margin-top: 0px;
-        display: flex;
-        flex-direction: row;
+        margin-top: 30px;
         justify-content: center;
-        overflow: hidden;
-        margin-bottom: 150px;
+        margin-bottom: 75px;
+        margin-left: -50px;
     }
 
     .btn{

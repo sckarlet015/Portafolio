@@ -10,6 +10,7 @@ import ImgFood from "./Img/ImgFood/images"
 import Info from './components/Info/Info';
 import NavBar from './components/NavBar/NavBar';
 import Form from './components/Form/Form';
+import ToggleNavbar from './components/NavBar/ToggleNavBar';
 
 
 function App() {
@@ -31,8 +32,7 @@ function App() {
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
       if (rect.top >= 0 && rect.bottom <= windowHeight) {
         setIsExperienceVisible(true);
-      } else {
-        setIsExperienceVisible(false);
+        setIsInfoVisible(false)
       }
     }
 
@@ -40,10 +40,10 @@ function App() {
       const react = infoRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
       if (react.top >= 0 && react.bottom <= windowHeight) {
+        setIsExperienceVisible(false);
+        setIsFormVisible(false)
         setIsInfoVisible(true)
-      } else {
-        setIsInfoVisible(false)
-      }
+      } 
     }
 
     if (formRef.current) {
@@ -51,10 +51,15 @@ function App() {
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
       if (react.top >= 0 && react.bottom <= windowHeight) {
         setIsFormVisible(true)
-      } else {
-        setIsFormVisible(false)
+        setIsInfoVisible(false)
       }
     }
+  };
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
   };
 
   useEffect(() => {
@@ -67,10 +72,11 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar/>
+      <ToggleNavbar isOpen={isOpen} toggleNavbar={toggleNavbar}/>
+      <NavBar toggleNavbar={toggleNavbar}/>
       <Portada />
       <h3 className="subTitle" id='proyectos' >Poyectos</h3>
-      <div className='line'></div>
+      <div className='line' ref={experienceRef}></div>
       <div className={`experience ${isExperienceVisible ? 'visible' : ''}`}>
       {Experiencia.map((proyecto, index) => (
         <ProyectoBox
@@ -85,7 +91,7 @@ function App() {
           index={index}
         />
       ))}
-      <div ref={experienceRef}></div>
+      <div ></div>
       </div>
       <h3 className="subTitle" id='saber-mas'>Sobre mi</h3>
       <div className='line'></div>

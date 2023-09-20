@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.info}>
         <p>© 2023 Mi Portafolio. Todos los derechos reservados.</p>
-       <div className={styles.contFirma}> <p>Creado por: </p> <p className={styles.firma}> Eric Ramirez</p></div>
+       <div className={styles.contFirma}> <p className={styles.firma}> Eric Ramirez</p></div>
       </div>
       <div className={styles.info}>
         <a

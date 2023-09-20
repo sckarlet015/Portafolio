@@ -79,6 +79,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 5px
 }
 
 .afirm{
@@ -98,4 +99,80 @@
 .focus{
     width: 50px;
     height: auto;
+}
+
+@media (max-width: 769px) {
+    .contAvatar{
+        margin-left: 5px;
+    } 
+
+    .afirm{
+        padding: 5px;
+        text-align: -webkit-center;
+    }
+
+    .afirmTxt{
+        width: 200px;
+        font-size: 12px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 459px) {
+    .contAvatar{
+        /* width: 100px;
+        height: 60px;
+        margin-left: 5px; */
+        display: none;
+    }
+
+    .avatar{
+        width: 100px;
+        height: 60px;
+    }
+
+    .afirm{
+        padding: 5px;
+        text-align: -webkit-center;
+    }
+
+    .txt{
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -40px;
+    }
+
+    .txt h2{
+        display: none;
+    }
+
+    .txt p{
+        font-size: 12px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .afirmTxt{
+        width: 100%;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .contQue{
+        padding-top: 5px;
+    }
+
+    .contTech{
+       justify-content: center;
+    }
+
+    .focus{
+        width: 30px;
+    }
+
+    .afirName{
+        margin-block-start: 0px;
+    margin-block-end: 0px;
+    }
 }
