@@ -7,7 +7,6 @@
 
 .form {
   display: inline-grid;
-  /* border: 5px solid #ff4800; */
   border-radius: 10px;
   padding: 10px;
   width: 500px;
@@ -58,6 +57,10 @@
   background-color: rgba(87, 89, 124, 0.233);
   border: 3px solid #000000;
   border-radius: 5px;
+  color: #B0E0E6;
+}
+option{
+  color: #3d4041;
 }
 
 .inp::placeholder {
