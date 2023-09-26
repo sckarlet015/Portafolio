@@ -29,8 +29,6 @@ export default function Form({ formRef }) {
     }));
   };
 
-  const axios = require('axios');
-
 const handlePostRece = async () => {
   const hasErrors = Object.values(errors).some((error) => error !== "");
   if (hasErrors) {
