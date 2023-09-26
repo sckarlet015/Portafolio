@@ -29,21 +29,28 @@ export default function Form({ formRef }) {
     }));
   };
 
-  const handlePostRece = async () => {
-    const hasErrors = Object.values(errors).some((error) => error !== "");
-    if (hasErrors) {
-      alert("Lo sentimos, aún hay errores. Por favor, revisa los datos e inténtalo nuevamente.");
-      return;
-    } else {
-      try {
-          await axios.post("https://portafolioback-583e1a26d22c.herokuapp.com/send-email", createMail)
-          alert("Mensaje enviado")
-      } catch (error) {
-          alert(error)
-      }
-      resetForm();
+  const axios = require('axios');
+
+const handlePostRece = async () => {
+  const hasErrors = Object.values(errors).some((error) => error !== "");
+  if (hasErrors) {
+    alert("Lo sentimos, aún hay errores. Por favor, revisa los datos e inténtalo nuevamente.");
+    return;
+  } else {
+    try {
+      const response = await axios.post("https://portafolioback-583e1a26d22c.herokuapp.com/send-email", createMail, {
+        withCredentials: true, 
+      });
+      alert("Mensaje enviado");
+      
+      console.log(response.data);
+    } catch (error) {
+      alert("Error al enviar el mensaje: " + error.message);
     }
-  };
+    resetForm();
+  }
+};
+
 
   const resetForm = () => {
     setCreateMail({
