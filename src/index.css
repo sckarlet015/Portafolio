@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("./Font/static/Raleway-Light.ttf");
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url("./Font/static/Oswald-Regular.ttf");
+}
+
+
+p {
+  font-family: Oswald;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+
+h1 {
+  font-family: Oswald;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+h2{
+  font-family: Oswald;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+h3{
+  font-family: Oswald;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+h4{
+  font-family: Oswald;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}

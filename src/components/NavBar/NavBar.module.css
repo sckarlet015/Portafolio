@@ -1,0 +1,78 @@
+.nav {
+    display: flex;
+    width: 1200px;
+    height: 96px;
+    position:absolute;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+    animation:scale-up-horizontal-center 2.3s
+  }
+
+  @keyframes scale-up-horizontal-center{0%{transform:scaleX(.2)}100%{transform:scaleX(1)}}
+  
+  .contLogo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+  }
+  .navLinks {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  
+  .navLinksU {
+    width: 300px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+  }
+  
+  .btn {
+    display: flex;
+    width: 155px;
+    height: 76px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+  }
+  
+  .a {
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #E4FD3F;
+    .a{
+      color: #E4FD3F;
+    }
+  }
+  
+  .logo {
+    width: 200px;
+    height: 100px;
+  }
+  
+  .logo:hover{
+    cursor: pointer;
+  }
+
+  .bntA{
+    background-color: #E4FD3F;
+    border-radius: 10px;
+    color: black;
+    width: 150px;
+    height: 40px;
+    margin-left: 20px;
+  }

@@ -1,0 +1,5 @@
+#app-container {
+  display: flex;
+  justify-content: center;
+  /* background: linear-gradient(90deg, rgba(200, 245, 88, 0.08) 0%, rgba(158, 191, 71, 0.08) 100%); */
+}
