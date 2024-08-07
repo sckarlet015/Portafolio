@@ -413,7 +413,7 @@ const Home = () => {
                 </div>
                 <div className={style.pie}>
                     <img className={style.logo} src={logo} alt="" onClick={() => clckHome()}/>
-                    <p className={style.frase}>Aqui una frase conmovedora que me represente en una sola oracion y tiene que ver con el desarrollo.</p>
+                    {/* <p className={style.frase}>Aqui una frase conmovedora que me represente en una sola oracion y tiene que ver con el desarrollo.</p> */}
                     <div className={style.contRedesB}>
                         <div className={style.redes}>
                             <a href="https://www.linkedin.com/in/ericramirezdev/" target="_blank" rel="noreferrer">
