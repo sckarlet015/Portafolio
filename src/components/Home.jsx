@@ -69,7 +69,7 @@ const Home = () => {
                 <div className={style.prest}>
                     <h2 className={style.hello}>Hola, soy Eric Ramirez Desarrollador Web</h2>
                     <div className={style.part}>
-                        <p className={style.welcom}>Con experiencia en la creación de aplicaciones web modernas y atractivas.</p>
+                        <p className={style.welcom}>Tengo experiencia en la creación de aplicaciones web modernas y atractivas.</p>
                         <p className={style.welcom}>Me encanta transformar ideas en productos digitales de alta calidad.</p>
                         <p className={style.welcom}>¡Déjame ayudarte a llevar tu proyecto al siguiente nivel!</p>
                     </div>
@@ -81,7 +81,7 @@ const Home = () => {
                             </a>
                         </div>
                         <div className={style.redes}>
-                            <a href="https://github.com/EricRamirezDev" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/sckarlet015" target="_blank" rel="noreferrer">
                                 <FaGithub className={style.icon} />
                             </a>
                         </div>
@@ -110,9 +110,9 @@ const Home = () => {
                             <h3 className={style.titleCard}>Desarrollo Web</h3>
                         </div>
                         <div className={style.contTxt}>
-                            <p className={style.parrafoCard}>Tu marca merece lo mejor. Creamos sitios web a medida que reflejan la calidad que tu marca merece...</p>
+                            <p className={style.parrafoCard}>Tu marca merece lo mejor. Creo sitios web a medida que reflejan la calidad que tu marca merece...</p>
                         </div>
-                        <p className={style.btnTxt}>Saber mas</p>
+                        {/* <p className={style.btnTxt}>Saber mas</p> */}
                     </div>
                     <div className={style.card}>
                         {/* <MdOutlineAndroid className={style.iconServiceB} /> */}
@@ -121,9 +121,9 @@ const Home = () => {
                             <h3 className={style.titleCard}>Aplicación Movil</h3>
                         </div>
                         <div className={style.contTxt}>
-                            <p className={style.parrafoCard}>Con nuestro servicio de desarrollo de aplicaciones móviles, creamos soluciones innovadoras y personalizadas que llevan tu negocio al siguiente nivel.</p>
+                            <p className={style.parrafoCard}>Con mi servicio de desarrollo de aplicaciones móviles, creo soluciones innovadoras y personalizadas que llevan tu negocio al siguiente nivel.</p>
                         </div>
-                        <p className={style.btnTxt}>Saber mas</p>
+                        {/* <p className={style.btnTxt}>Saber mas</p> */}
                     </div>
                     <div className={style.card}>
                         {/* <MdLocalGroceryStore className={style.iconService} /> */}
@@ -132,9 +132,9 @@ const Home = () => {
                             <h3 className={style.titleCard}>Tienda en linea</h3>
                         </div>
                         <div className={style.contTxt}>
-                            <p className={style.parrafoCard}>Con nuestro servicio de tiendas en línea, creamos plataformas de comercio electrónico personalizadas que te ayudan a vender tus productos o servicios de manera efectiva en Internet.</p>
+                            <p className={style.parrafoCard}>Con mi servicio de tiendas en línea, creo plataformas de comercio electrónico personalizadas que te ayudan a vender tus productos o servicios de manera efectiva en Internet.</p>
                         </div>
-                        <p className={style.btnTxt}>Saber mas</p>
+                        {/* <p className={style.btnTxt}>Saber mas</p> */}
                     </div>
                 </div>
                 <div className={style.contService}>
@@ -145,9 +145,9 @@ const Home = () => {
                             <h3 className={style.titleCard}>Diseño Web</h3>
                         </div>
                         <div className={style.contTxt}>
-                            <p className={style.parrafoCard}>Desde la creación de una identidad visual única hasta la optimización de la usabilidad, nos aseguramos de que tu sitio web refleje la esencia de tu marca y atraiga a tus clientes ideales.</p>
+                            <p className={style.parrafoCard}>Desde la creación de una identidad visual única hasta la optimización de la usabilidad, me aseguro de que tu sitio web refleje la esencia de tu marca y atraiga a tus clientes ideales.</p>
                         </div>
-                        <p className={style.btnTxt}>Saber mas</p>
+                        {/* <p className={style.btnTxt}>Saber mas</p> */}
                     </div>
                     <div className={style.card}>
                         {/* <FaUserEdit className={style.iconServiceB} /> */}
@@ -156,9 +156,9 @@ const Home = () => {
                             <h3 className={style.titleCard}>Diseño UX/UI</h3>
                         </div>
                         <div className={style.contTxt}>
-                            <p className={style.parrafoCard}>Desde la investigación de usuario hasta el diseño de interfaces intuitivas, nos aseguramos de que cada interacción sea fluida y memorable.</p>
+                            <p className={style.parrafoCard}>Desde la investigación de usuario hasta el diseño de interfaces intuitivas, me aseguro de que cada interacción sea fluida y memorable.</p>
                         </div>
-                        <p className={style.btnTxt}>Saber mas</p>
+                        {/* <p className={style.btnTxt}>Saber mas</p> */}
                     </div>
                     <div className={style.card}>
                         {/* <FaPlaceOfWorship className={style.iconServiceB} /> */}
@@ -167,9 +167,9 @@ const Home = () => {
                             <h3 className={style.titleCard}>CEO Marketing</h3>
                         </div>
                         <div className={style.contTxt}>
-                            <p className={style.parrafoCard}>¿Quieres que tu negocio sea encontrado fácilmente en línea y atraiga a más clientes? Con nuestro servicio de SEO y marketing digital, optimizamos tu presencia en Internet para que tu sitio web aparezca en los primeros resultados de búsqueda.</p>
+                            <p className={style.parrafoCard}>¿Quieres que tu negocio sea encontrado fácilmente en línea y atraiga a más clientes? Con mi servicio de SEO y marketing digital, optimizamos tu presencia en Internet para que tu sitio web aparezca en los primeros resultados de búsqueda.</p>
                         </div>
-                        <p className={style.btnTxt}>Saber mas</p>
+                        {/* <p className={style.btnTxt}>Saber mas</p> */}
                     </div>
                 </div>
             </div>
@@ -349,10 +349,10 @@ const Home = () => {
                         <div className={style.contenCard}>
                             <img className={style.cardLogoB} src={BSDlogo} alt="" />
                             <p className={style.resumen}>Plataforma de comunidad para deportistas que busca conectar reclutadores con perfiles talentosos.</p>
-                            <button className={style.btnA}><span>Visitar sitio</span></button>
+                            <button className={style.btnA} onClick={() => window.location.href = "https://www.bigsportdata.com/"}><span>Visitar sitio</span></button>
                         </div>
                     </div>
-                    <div className={style.cardA}>
+                    {/* <div className={style.cardA}>
                         <img className={style.cardFondo} src={BSDfondo} alt="" />
                         <img className={style.cardLogo} src={BSDlogo} alt="" />
                         <div className={style.contenCard}>
@@ -360,9 +360,9 @@ const Home = () => {
                             <p className={style.resumen}>Plataforma de comunidad para deportistas que busca conectar reclutadores con perfiles talentosos.</p>
                             <button className={style.btnA}><span>Visitar sitio</span></button>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-                <div className={style.contService}>
+                {/* <div className={style.contService}>
                     <div className={style.cardA}>
                         <img className={style.cardFondo} src={BSDfondo} alt="" />
                         <img className={style.cardLogo} src={BSDlogo} alt="" />
@@ -381,7 +381,7 @@ const Home = () => {
                             <button className={style.btnA}><span>Visitar sitio</span></button>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className={style.blog}>
                 <div className={style.contTitle}>

@@ -31,7 +31,7 @@ export default function NavBar() {
   return (
     <nav className={style.nav}>
       <div className={style.contLogo}>
-        <img className={style.logo} src={logo} alt="logo"/>
+        <img className={style.logo} src={logo} alt="logo" />
       </div>
       <div className={style.navLinks}>
         <div className={style.btn} onClick={() => handleClick("inicio")}>
@@ -54,8 +54,8 @@ export default function NavBar() {
         </div> */}
       </div>
       <div className={style.navLinksU}>
-      <FiGlobe size={24} color="white" />
-      <button className={style.bntA}>Contactame</button>
+        {/* <FiGlobe size={24} color="white" /> */}
+        <button className={style.btnA}><span>Contactame</span></button>
       </div>
     </nav>
   );

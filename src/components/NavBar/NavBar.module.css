@@ -68,11 +68,48 @@
     cursor: pointer;
   }
 
-  .bntA{
-    background-color: #E4FD3F;
+  .btnA{
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #D1E751;
     border-radius: 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 150px;
     height: 40px;
-    margin-left: 20px;
+    border-left: 15px solid #D1E751;
+    overflow: hidden;
+    transition: color 0.4s ease;
+    cursor: pointer;
   }
+
+  .btnA::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D1E751;
+    z-index: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+}
+
+.btnA:hover::before {
+    transform: scaleX(1);
+}
+
+.btnA:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btnA span {
+    position: relative;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17.61px;
+    text-align: center;
+    z-index: 1;
+}
